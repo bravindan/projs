@@ -1,0 +1,61 @@
+
+   body
+   {
+       background-color :greenyellow;
+   }
+   h1
+   {
+       color : #000000;
+       text-align : center;
+       font-family: SIMPSON;
+       background-color: teal;
+       margin-left: 40%;
+       margin-right: 40%;
+       height: 50px;
+       border-radius:0 20px 0 20px;
+   }
+   .user form 
+   {
+       text-align:center;
+       /* display: block; */
+   }
+   footer{
+       text-align: center;
+       background-color: grey;
+       border-radius: 10px;
+       margin-left: 20%;
+       margin-right: 20%;
+       color: white;
+   }
+   form input[type=text]{
+       color: blue;
+       
+   }
+   .user{
+       margin: 50px auto 0;
+       background-color: #8d8888;
+       width: 400px;
+       border: 2px solid #C2D6FF;
+       border-radius: 40px 0 40px 0;
+       height: 450px;
+   }
+   form input[type=submit]{
+       color: blue;
+       background-color: orangered;
+       width: 150px;
+       height: 30px;
+       border-radius: 15px;
+   }
+   form input[type=button]{
+    color: blue;
+    background-color: orangered;
+    width: 150px;
+    height: 30px;
+    border-radius: 15px;}
+    form input{
+        border-radius: 8px;
+        height: 30px;
+       
+    }
+
+   

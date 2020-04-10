@@ -1,0 +1,64 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<title>Register</title>
+<meta content="noindex, nofollow" name="robots">
+<!-- Include CSS File Here -->
+<link href="register.css" rel="stylesheet">
+<link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <nav>
+        <div id="logo">
+            <img src="logo.png">
+        </div>
+        <div class="hd">EQUATOR HOSTELS</div>
+    
+    <div class="links">
+        <ul><a href="index.html" title="click to go back to startpage">Home</a></ul>
+        <ul><a href="login.html">Login</a></ul>
+        <ul><a href="register.html">Register</a></ul>
+        <ul><a href="#">Hostels</a></ul>
+        <ul><a href="#">Contact</a></ul>
+        <ul><a href="#">About us</a></ul>
+    </div>
+</nav>
+<h1>Register</h1>
+    <div class="user">
+      <form action="validate.php" method="POST">
+       
+        
+         Name <br>
+         <input type="text" name="name">
+         <br>
+         Email <br>
+         <input type="text" name="email">
+         <br>
+         Phone<br>
+         <input type="text" name="phone">
+         <br>
+         Gender<br>
+         <input type="radio" name="gender" value="male" >Male
+         <input type="radio" name="gender" value="female"> Female<br> 
+         Password <br>
+         <input type="password" name="pwd">
+         <br>
+         Confirm Password <br>
+         <input type="password" name="cpwd">
+         <br>
+         <br>
+         <input type="submit" value="Register"><br>
+         <h5>Or already having account</h5>
+        <a href="login.html"><input type="button" onclick="window.href='login.html';" value="Login"></a>
+        
+       
+      </form>
+    </div>
+    <br>
+    <br>
+  <footer>
+      Copyright &copy AMOBRAV2020;
+  </footer>
+</body>
+</html>
